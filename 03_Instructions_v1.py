@@ -26,10 +26,10 @@ def instructions():
     return ""
 
 # Main Routine goes here...
-show_instructions = yes_no ("Have you played the game before? ")
+played_before = yes_no ("Have you played the game before? ")
 
 
-if show_instructions == "yes":
+if played_before == "no":
     instructions()
 
 print("Program Continues")
