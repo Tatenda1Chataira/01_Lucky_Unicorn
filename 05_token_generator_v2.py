@@ -1,7 +1,7 @@
 import random
 
 # main routine goes here
-tokens = {"Unicorn", "horse", "zebra", "donkey"}
+tokens = ["unicorn", "horse", "zebra", "donkey"]
 balance = 100
 
 # Testing loop to generate 20 tokens
